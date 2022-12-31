@@ -1,0 +1,30 @@
+body{background-color: rgb(17, 223, 161);
+
+}
+h1{
+    color: red;
+    
+}
+.h2{
+    font-size: 15px;
+    
+}
+h3{
+    font-size: large;
+}
+ol{
+    font-size: 150%;
+    color: green;
+   
+}
+ div {height: 200px;
+    width: 70%;
+}
+ p{
+    border : 2px outset red;
+    background-color: rgb(180, 119, 237);
+    font-size: 25px;
+   margin-top: 0%;
+   margin-bottom: 10px;
+   
+}

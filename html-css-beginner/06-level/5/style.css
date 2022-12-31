@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+}
+
+form input{
+    
+    display:block;
+    
+    width:400px;
+  
+    border-radius:20px ;
+   
+    font-size: large;
+    margin: .4rem;
+   
+}
+form label{
+    font-size: 30px;
+    display:block;
+ 
+    
+}
+div label{
+display: block;
+margin: .1rem;
+}
+p{
+font-size: 30px;
+margin: .1rem;
+}
+
+    option{
+        background-color: rgb(206, 195, 195);
+    }
+     textarea{
+    height: 100px;
+    width: 400px;
+    border-width: 2mm;
+     border-color: rgb(255, 8, 8);
+    
+
+
+
+}
+
+textarea:focus{
+border-color: green;
+
+}

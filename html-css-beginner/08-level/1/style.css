@@ -1,0 +1,41 @@
+th {
+    
+    
+   
+    background-color: rgb(206, 206, 251);
+}
+
+td:hover {
+
+   cursor: pointer;
+    background-color: aqua;
+    
+    font-size: 25px;
+    
+}
+
+.city {
+    background-color:rgb(71, 71, 243);
+}
+.first {
+    background-color: rgb(216, 9, 9);
+    color:black;
+}
+
+.links {
+    background-color: rgb(168, 99, 232);
+    color: black;
+
+}
+.center {
+    background-color: yellow;
+
+}
+a {
+    color: black;
+    
+}
+table ,td ,th {
+    padding: 20px;
+    border: solid black 1px;
+}

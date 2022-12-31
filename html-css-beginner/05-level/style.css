@@ -1,0 +1,20 @@
+h1{
+    color: rgb(7, 7, 148);
+    font-size:  35px;
+    border-style: outset;
+}
+
+p{
+    background-color: rgb(237, 134, 230);
+    font-size: 20px;
+    color: rgb(7, 7, 148); 
+    border-style: outset;
+}
+
+nav {
+text-align: center;
+background-color: bisque;
+}
+footer{
+    background-color: bisque;
+}
