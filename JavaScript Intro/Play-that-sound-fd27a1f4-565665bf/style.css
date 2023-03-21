@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+button{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    
+    background-color: rgb(103, 110, 245);
+    color:aliceblue;
+    align-items: center;
+    
+}

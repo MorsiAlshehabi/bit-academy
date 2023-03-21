@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Jarvis opdracht: goeie antwoorden</title>
+    <style>
+        #but{
+            background-color: blue;
+            color:aliceblue;
+        }
+       
+    </style>
+</head>
+
+<body>
+<h2>Beantwoord de vragen:</h2>
+
+<h3>Wat is de hoofdstad van Frankrijk?</h3>
+<input id="eerstevraag" type="text">
+
+<h3>Hoeveel poten heeft een spin?</h3>
+<input id="tweedevraag" type="number">
+
+<h3>Wat is het grootste meer van Nederland?</h3>
+<input id="derdevraag" type="text">
+
+
+<h3>noem een Duits automerk?</h3>
+<input id="verdevraag" type="text">
+
+<h3>noem een waddeneiland?</h3>
+<input id="vijvdevraag" type="text"><br>
+<br>
+
+<button id="but" onclick="controleerantwoord()">Controleer antwoorden</button>
+<div>
+    <h4 id="goedeantwoorden"></h4>
+</div>
+</body>
+
+</html>
