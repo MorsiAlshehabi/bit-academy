@@ -1,0 +1,53 @@
+
+.navbar {flex-basis:auto;
+    background-color: orangered;
+    justify-content: space-around;
+    display: flex;
+}
+.content {
+    display: flex;
+    background-color: rgb(211, 254, 211);
+    flex-basis: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.news:first-child{
+    width: 100%;
+    text-align: center;
+}
+.news {
+    width: 30%;
+    order: 1;
+}
+.news:nth-child(1) {
+    order: 2;
+}
+.news:nth-child(4) {
+    order: 4;
+}
+.news:nth-child(2) {
+    order: 4;
+}
+.news:nth-child(3) {
+    order: 4;
+}
+h3:nth-child(4) {
+    font-size: large;
+    display: flex;
+}
+.p:nth-child(1) {
+    display: flex;
+}
+.news:nth-child(4) h3 {
+    font-size: 25px;
+}
+.news:nth-child(1) p {
+    text-align: left;
+}
+
+#breaking{
+    display: flex;
+    text-align: center;
+    order: 1
+}
+

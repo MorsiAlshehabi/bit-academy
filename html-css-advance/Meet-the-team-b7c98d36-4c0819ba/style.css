@@ -1,0 +1,80 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+p{
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+ul * {
+    margin-left: 40px;
+}
+.collegas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content:space-evenly;
+    
+
+    
+   
+}
+
+.avatar * {
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    object-fit:none;
+    
+    
+}
+
+
+
+
+
+ .collega {
+    background-color: antiquewhite;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-bottom: 90px;
+ }
+ 
+ 
+ [alt="colors1"]{
+    object-fit:contain;
+    object-position:4.2em ;
+    padding-left:37px ;
+    width:100px ;
+
+ }
+
+ [alt="colors2"]{
+    width: 1px;
+    background-size:600px;
+   margin-left: 105px; 
+padding: 16px  ;
+background-position: -20em;
+background-image: url(colors.png);
+
+ }
+
+ [alt="colors3"]{
+    width: 1px;
+    background-size:600px;
+   margin-left: 105px; 
+padding: 16px  ;
+background-position: -30em;
+background-image: url(colors.png);
+
+ }
+ 

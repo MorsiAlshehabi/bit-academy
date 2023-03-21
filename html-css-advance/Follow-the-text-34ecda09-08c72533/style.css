@@ -1,0 +1,21 @@
+.content{
+    position: absolute;
+}
+.icon{
+    position:fixed;
+    left: 80%;
+} 
+.icon:hover + .tooltip-content {
+    display: block;
+    background-color: burlywood;
+    overflow: hidden;
+    background-color: black;
+    color:white;
+    width: 400px;
+    position: fixed;
+    top: 0;
+    top: 30px;
+}
+.tooltip-content{
+    display: none;
+}

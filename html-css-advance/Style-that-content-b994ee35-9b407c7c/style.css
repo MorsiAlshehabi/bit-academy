@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    background-color: #ff6a00;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-direction: row;
+}
+.navbar p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.news {
+        display: flex;
+        text-align: center;
+        padding: 50px;
+        margin: 50px;
+    }

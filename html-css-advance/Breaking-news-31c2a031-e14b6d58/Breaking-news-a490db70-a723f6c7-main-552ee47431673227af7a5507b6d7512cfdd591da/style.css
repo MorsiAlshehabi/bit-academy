@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    gap: 100px;
+    justify-content: space-around;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: beige;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.news:first-child {
+    display: flex;
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 33%;
+    
+}
+
+#breaking{
+    display: flex;
+    text-align: center;
+    
+    order: -1;
+}
